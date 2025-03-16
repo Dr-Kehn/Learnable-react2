@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext.tsx";
 import Navbar from "./components/navbar.tsx";
 import SignUp from "./pages/SignUp.tsx";
@@ -13,7 +13,6 @@ import AdminRoute from "./routes/AdminRoute.tsx";
 const App = () => {
   return (
     <AuthProvider>
-      <Router>
         <Navbar />
         <Routes>
           <Route path="/sign-up" element={<SignUp />} />
@@ -23,7 +22,6 @@ const App = () => {
           <Route path="/settings" element={<AdminRoute><Settings /></AdminRoute>} />
           <Route path="/" element={<Navigate to="/login" />} />
         </Routes>
-      </Router>
     </AuthProvider>
   );
 };
