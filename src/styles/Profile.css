@@ -1,0 +1,10 @@
+/* src/pages/Profile.css */
+.profile-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-container p {
+    font-size: 18px;
+  }
+  

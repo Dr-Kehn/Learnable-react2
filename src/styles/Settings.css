@@ -1,0 +1,10 @@
+/* src/pages/Settings.css */
+.settings-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .settings-container p {
+    font-size: 18px;
+  }
+  

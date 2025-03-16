@@ -1,0 +1,13 @@
+/* src/pages/Login.css */
+.login-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

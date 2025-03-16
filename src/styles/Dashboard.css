@@ -1,0 +1,16 @@
+/* src/pages/Dashboard.css */
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dashboard-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-container p {
+    font-size: 18px;
+    color: #555;
+  }
+  
